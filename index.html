@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+     <meta charset = "UTF-8">
+     <title> encriptador challenge </title>
+     <link rel="stylesheet" type="text/css" href="reset.css">
+     
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+     <header>
+          <img class="logo" src="imagenes/logo.svg"alt="logo">
+     </header>
+     <main class="seccion1">
+          <div class="contenedor">
+               <textarea placeholder="ingrese el texto aqui" class="cajatexto">  </textarea>
+          </div>
+          <div class="alerta">
+               <img src="imagenes/alerta.svg">
+               <p>solo letras misnusculas y sin acentos</p>               
+          </div>
+          <div class="contbotones">
+               <input type="button" value="encriptar" class="codificar">
+               <input type="button" value="desifrar" class="desifrar">
+               </div>
+               <section class="seccion2">
+                   <div class="contmunieco">
+                        <img src="imagenes/Munieco.png">
+                   </div> 
+                   <div class="contenedorparrafo">
+                        <h3>ningun mensaje fue <br>encontrado</h3>
+                        <p>ingrese un texto que desea encriptar o <br>desifrar</p>
+
+                   </div>
+                   <div class="contcopiar">
+                        <input type="button" value="copiar" class="btncopiar">
+
+
+                   </div>
+                   <div class="contenedorresultado">
+                    <p class="textoresultado"></p>  
+                   </div>
+               </section>
+     </main>
+
+ <script src="script.js"></script>
+</body>
+</html>
